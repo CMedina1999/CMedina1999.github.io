@@ -1,0 +1,1 @@
+$('.sliderPrincipal').slick();
