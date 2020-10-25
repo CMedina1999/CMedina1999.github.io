@@ -388,7 +388,7 @@ main{
    text-align:center;
 }
 .estilizaçao{
-    width:1500px;
+    padding:0;
     display:block;
     list-style: none;
 
