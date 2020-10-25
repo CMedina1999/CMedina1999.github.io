@@ -23,9 +23,12 @@ src: url(fonte-raleway/Raleway-Medium.ttf);
 
 main{
     margin: 0 auto;
-    width: 1200px;
+    width: fit-content;
     position: relative;
 
+}
+header main{
+    width: 1200px;
 }
 
 
@@ -169,12 +172,11 @@ main{
 
 }
 .estilizaçao li{
-    display:block;
+    display:inline-block;
     width:400px;
     height:400px;
     margin:0px;
     position:relative;
-    float:left;
 
 }
 .estilizaçao li img{
