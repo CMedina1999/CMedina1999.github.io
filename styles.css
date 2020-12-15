@@ -223,30 +223,11 @@ header main{
   
 }
 .cilindros{
-    display:table-cell;
+    display:block;
     float:center;
     height: 500px;
 }
-.machucado{
-    display:table-cell;
-    float:center;
-    height: 500px;
-}
-.riacho{
-    display:table-cell;
-    float:center;
-    height: 500px;
-}
-.solo{
-    display:table-cell;
-    float:center;
-    height: 500px;
-}
-.pedras{
-    display:table-cell;
-    float:center;
-    height: 500px;
-}
+
 #rodapé{
     text-align:center;
     background-color: #ffffff;
