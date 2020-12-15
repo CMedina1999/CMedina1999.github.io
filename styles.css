@@ -217,7 +217,7 @@ header main{
     text-align:center;
  }
 
-.corpoFotografias{
+.fotografias{
     width: 1100px;
     margin: 0 auto;
     position: relative;
@@ -234,18 +234,28 @@ header main{
 #machucado{
     width: 1020px;
 }
+.fotoDupla1 ul li {
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+}
+#solo{
+    width: 500px;
+    float: left;
+}
+#ccbb{
+    width:500px;
+    float: right;
+}
+#pedras{
+    height: 650px;
+    padding-left: 495px;
+}
+
 #riacho{
     height: 700px;
     padding-left: 495px;
 }
-#solo{
-    height: 700px;
-}
-#pedras{
-    height: 700px;
-    padding-left: 495px;
-}
-
 #rodapé{
     text-align:center;
     background-color: #ffffff;
