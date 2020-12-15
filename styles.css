@@ -218,9 +218,8 @@ header main{
  }
 
 .corpoFotografias{
-    width: 980px;
+    width: 1100px;
     margin: 0 auto;
-    width: fit-content;
     position: relative;
   
 }
