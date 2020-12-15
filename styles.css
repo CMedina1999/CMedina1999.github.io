@@ -229,22 +229,21 @@ header main{
 }
 
 #cilindros{
-    width: 1000px;
+    width: 1020px;
 }
 #machucado{
-    width: 1000px;
+    width: 1020px;
 }
 #riacho{
     height: 700px;
-    padding-left: 500px;
+    padding-left: 495px;
 }
 #solo{
     height: 700px;
-    padding-left: 100px;
 }
 #pedras{
     height: 700px;
-    padding-left: 500px;
+    padding-left: 495px;
 }
 
 #rodapé{
