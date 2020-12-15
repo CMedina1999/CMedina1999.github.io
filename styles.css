@@ -234,7 +234,7 @@ header main{
 #machucado{
     width: 1020px;
 }
-.fotoDupla1 ul li {
+.fotoDupla ul li {
     display: inline-block;
     margin: 0 auto;
     position: relative;
@@ -247,14 +247,29 @@ header main{
     width:500px;
     float: right;
 }
-#pedras{
-    height: 650px;
-    padding-left: 495px;
-}
 
+#pedras{
+    width: 500px;
+    float: left;
+}
+#pedras2{
+    width:500px;
+    float: right;
+}
 #riacho{
-    height: 700px;
-    padding-left: 495px;
+    width:507px;
+    position: relative;
+    text-align:center;
+    float: left;
+  
+}
+#riacho2{
+    width:507px;
+    position: relative;
+    text-align:center;
+    float: right;
+    padding-left: 2px;
+    
 }
 #rodapé{
     text-align:center;
