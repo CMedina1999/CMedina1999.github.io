@@ -230,15 +230,18 @@ header main{
 
 #cilindros{
     width: 1020px;
+    padding-bottom: 500px;
 }
 #machucado{
     width: 1020px;
+    padding-bottom: 500px;
 }
 #riacho{
     width:507px;
     position: relative;
     text-align:center;
     float: left;
+    padding-bottom: 500px;
   
 }
 #riacho2{
@@ -247,6 +250,7 @@ header main{
     text-align:center;
     float: right;
     padding-left: 2px;
+    padding-bottom: 500px;
     
 }
 #solo{
@@ -254,6 +258,7 @@ header main{
     position: relative;
     text-align:center;
     float: left;
+    padding-bottom: 500px;
   
 }
 #ccbb{
@@ -262,6 +267,7 @@ header main{
     text-align:center;
     float: right;
     padding-left: 2px;
+    padding-bottom: 500px;
 }
 
 #pedras{
