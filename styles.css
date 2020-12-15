@@ -225,8 +225,8 @@ header main{
 }
 .cilindros{
     display:block;
-    float:center;
-    height: 500px;
+    float:left;
+    height: 200px;
 }
 
 #rodapé{
