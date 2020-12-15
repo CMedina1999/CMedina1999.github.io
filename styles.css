@@ -218,8 +218,10 @@ header main{
  }
 
 .corpoFotografias{
-    margin: auto;
     width: 980px;
+    margin: 0 auto;
+    width: fit-content;
+    position: relative;
   
 }
 .cilindros{
