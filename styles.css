@@ -234,28 +234,6 @@ header main{
 #machucado{
     width: 1020px;
 }
-.fotoDupla ul li {
-    display: inline-block;
-    margin: 0 auto;
-    position: relative;
-}
-#solo{
-    width: 500px;
-    float: left;
-}
-#ccbb{
-    width:500px;
-    float: right;
-}
-
-#pedras{
-    width: 500px;
-    float: left;
-}
-#pedras2{
-    width:500px;
-    float: right;
-}
 #riacho{
     width:507px;
     position: relative;
@@ -271,6 +249,35 @@ header main{
     padding-left: 2px;
     
 }
+#solo{
+    width:507px;
+    position: relative;
+    text-align:center;
+    float: left;
+  
+}
+#ccbb{
+    width:507px;
+    position: relative;
+    text-align:center;
+    float: right;
+    padding-left: 2px;
+}
+
+#pedras{
+    width:507px;
+    position: relative;
+    text-align:center;
+    float: left;
+}
+#pedras2{
+    width:507px;
+    position: relative;
+    text-align:center;
+    float: right;
+    padding-left: 2px;
+}
+
 #rodapé{
     text-align:center;
     background-color: #ffffff;
