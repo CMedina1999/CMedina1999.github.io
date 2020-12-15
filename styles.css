@@ -223,12 +223,10 @@ header main{
     position: relative;
   
 }
-.cilindros{
-    display:block;
-    float:left;
-}
+
 #cilindros{
     width: 1100px;
+    margin-right:50px;
 }
 #machucado{
     width: 1100px;
