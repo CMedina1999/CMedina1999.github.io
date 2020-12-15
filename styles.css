@@ -223,6 +223,9 @@ header main{
     position: relative;
   
 }
+.fotografias ul li{
+    display:inline-block;
+}
 
 #cilindros{
     width: 980px;
@@ -233,7 +236,8 @@ header main{
 #riacho{
     height: 700px;
     padding-left: 500px;
-}#solo{
+}
+#solo{
     height: 700px;
     padding-left: 100px;
 }
