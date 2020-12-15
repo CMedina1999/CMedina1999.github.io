@@ -217,15 +217,34 @@ header main{
     text-align:center;
  }
 
- .corpoFotografias{
+.corpoFotografias{
     margin: auto;
     width: 980px;
   
 }
 .cilindros{
     display:table-cell;
-    float:left;
-    padding:10px;
+    float:center;
+    height: 500px;
+}
+.machucado{
+    display:table-cell;
+    float:center;
+    height: 500px;
+}
+.riacho{
+    display:table-cell;
+    float:center;
+    height: 500px;
+}
+.solo{
+    display:table-cell;
+    float:center;
+    height: 500px;
+}
+.pedras{
+    display:table-cell;
+    float:center;
     height: 500px;
 }
 #rodapé{
