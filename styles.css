@@ -217,6 +217,17 @@ header main{
     text-align:center;
  }
 
+ .corpoFotografias{
+    margin: auto;
+    width: 980px;
+  
+}
+.cilindros{
+    display:table-cell;
+    float:left;
+    padding:10px;
+    height: 500px;
+}
 #rodapé{
     text-align:center;
     background-color: #ffffff;
