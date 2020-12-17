@@ -312,6 +312,14 @@ header main{
 #nus{
     width: 1020px;
 }
+#gravuraluas{
+    width:510px;
+    position:relative;
+    
+}
+#gravurapeitos{
+    width:339px;
+}
 #rodapé{
     text-align:center;
     background-color: #ffffff;
