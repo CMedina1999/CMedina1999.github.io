@@ -6,10 +6,7 @@ body{
     overflow-y:auto;
     overflow-x: hidden;
 }
-@font-face {
- font-family:Raleway;
-src: url(fonte-raleway/Raleway-Medium.ttf);
-}
+
 .menuPrincipal{
     width: 100%;
     background-color:#ffffff;
@@ -18,6 +15,10 @@ src: url(fonte-raleway/Raleway-Medium.ttf);
     border-top: 3px solid #424242;
     padding: 5px;
     
+}
+@font-face {
+    font-family:Libre Barcode;
+    src: url(Libre_Barcode_39_Text/LibreBarcode39Text-Regular.ttf);
 }
 
 
@@ -32,10 +33,29 @@ header main{
 }
 
 
-#logo{
-    float: left;
-    width: 65px;
+.logo {
  
+    font-size: 30px;
+    text-transform:uppercase;
+    font-family:Libre Barcode;
+    width: 40%;
+    float: left;
+    margin-left: 0px;
+    color: #424242;
+    padding: 15px;
+    text-align: left;
+}
+
+.logo a {
+    color: #424242;
+    text-decoration:none;
+    font-size: 40px;
+    text-transform:uppercase;
+    font-family:Libre Barcode;
+ 
+}
+.logo a:hover{
+    color:#ea7a7a;
 }
 
 
@@ -52,7 +72,7 @@ header main{
     text-decoration:none;
     font-size: 15px;
     text-transform:uppercase;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
 }
 .opções ul li a:hover{
     color:#ea7a7a;
@@ -86,21 +106,13 @@ header main{
 }
 
 
-#linkedin{
-    height: 25px;
-    padding: 15px;
-}
 
 #instagram{
     height: 25px;
-    padding: 15px;
+    padding: 17px;
 }
 
 
-#facebook{
-    height: 25px;
-    padding: 15px;
-}
 
 #titulo{
     width: 100%;
@@ -109,7 +121,7 @@ header main{
     text-align:center;
     color:#424242;
     font-weight: 700;
-    font-family: Raleway; 
+    font-family:Libre Barcode;
     font-size: x-large;
     font-size:8em;
     background-image:url(CHICLET4.png);
@@ -120,17 +132,17 @@ header main{
 
 .fotoPrincipal ul li {
     display: inline-block;
+    
 }
 
 #Chiclet{
-
     float: left;
-    width:550px;
+    width:600px;
 }
 #Chiclet2{
   
     float:right;
-    width: 550px;
+    width: 600px;
 }
 
 #amontoado{
