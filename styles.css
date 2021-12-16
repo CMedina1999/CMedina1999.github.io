@@ -1,10 +1,15 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
 body{
     width: 100%;
     height: 100%;
     margin: 0 auto;
     overflow-y:auto;
     overflow-x: hidden;
+    
 }
 
 .menuPrincipal{
@@ -14,18 +19,16 @@ body{
     border-bottom:3px solid #bebebe;
     border-top: 3px solid #424242;
     padding: 5px;
+    position: fixed;
+    display:flex;
     
 }
-@font-face {
-    font-family:Libre Barcode;
-    src: url(Libre_Barcode_39_Text/LibreBarcode39Text-Regular.ttf);
-}
-
 
 main{
     margin: 0 auto;
     width: fit-content;
     position: relative;
+    
 
 }
 header main{
@@ -37,7 +40,7 @@ header main{
  
     font-size: 30px;
     text-transform:uppercase;
-    font-family:Libre Barcode;
+    font-family: 'Libre Barcode 39 Text', cursive;
     width: 40%;
     float: left;
     margin-left: 0px;
@@ -51,7 +54,7 @@ header main{
     text-decoration:none;
     font-size: 40px;
     text-transform:uppercase;
-    font-family:Libre Barcode;
+    font-family: 'Libre Barcode 39 Text', cursive;
  
 }
 .logo a:hover{
@@ -73,7 +76,7 @@ header main{
     text-decoration:none;
     font-size: 15px;
     text-transform:uppercase;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .opções ul li a:hover{
     color:#ea7a7a;
@@ -113,7 +116,12 @@ header main{
     padding: 17px;
 }
 
-
+.corpoIndex{
+    padding-top: 100px;
+    margin: auto;
+    width: fit-content;
+      
+}
 
 #titulo{
     width: 100%;
@@ -122,7 +130,7 @@ header main{
     text-align:center;
     color:#424242;
     font-weight: 700;
-    font-family:Libre Barcode;
+    font-family: 'Libre Barcode 39 Text', cursive;
     font-size: x-large;
     font-size:8em;
     background-image:url(CHICLET4.png);
@@ -130,6 +138,7 @@ header main{
     -webkit-text-fill-color:transparent;
     
 }
+
 
 .fotoPrincipal ul li {
     display: inline-block;
@@ -150,6 +159,7 @@ header main{
     height: 600px;
 }
 .corpoAbout{
+    padding-top: 100px;
     margin: auto;
     width: 980px;
   
@@ -166,7 +176,7 @@ header main{
     color: #424242;
     text-decoration:none;
     font-size: 15px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align: left;
 }
 .sobreImagem{
@@ -174,10 +184,15 @@ header main{
     float:left;
     padding:10px;
 }
-#projetos{
-   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-   text-align:center;
+
+
+.corpoProjects{
+    padding-top: 100px;
+    margin: auto;
+    width: fit-content;
+      
 }
+
 .estilizaçao{
     padding:0;
     display:block;
@@ -206,8 +221,8 @@ header main{
     display:block;
     width:100%;
     height: 70px;
-    background-color: #bebebe;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#e69f9f;
+    font-family: 'Raleway Dots', cursive;
     overflow:hidden;
     margin-top:330px;
     cursor: pointer;
@@ -220,20 +235,19 @@ header main{
     float: left;
     width:250px;
     margin:10px;
-    font-size: 15px;
+    font-size: 25px;
     text-transform:uppercase;
+    text-align: right;
 
 }
 
 #sobre{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align:center;
  }
 
 .fotografias{
     width: 1100px;
-    margin: 0 auto;
-    position: relative;
     list-style: none;
   
 }
@@ -251,7 +265,6 @@ header main{
 }
 #riacho{
     width:507px;
-    position: relative;
     text-align:center;
     float: left;
     padding-bottom: 500px;
@@ -259,7 +272,6 @@ header main{
 }
 #riacho2{
     width:507px;
-    position: relative;
     text-align:center;
     float: right;
     padding-left: 2px;
@@ -269,7 +281,6 @@ header main{
 
 #solo{
     width:507px;
-    position: relative;
     text-align:center;
     float: left;
     padding-bottom: 500px;
@@ -277,7 +288,6 @@ header main{
 }
 #ccbb{
     width:507px;
-    position: relative;
     text-align:center;
     float: right;
     padding-left: 2px;
@@ -286,7 +296,6 @@ header main{
 
 #pedras{
     width:507px;
-    position: relative;
     text-align:center;
     float: left;
     padding-bottom: 500px;
@@ -294,7 +303,6 @@ header main{
 }
 #pedras2{
     width:507px;
-    position: relative;
     text-align:center;
     float: right;
     padding-left: 2px;
@@ -303,7 +311,6 @@ header main{
 }
 #n01{
     width:337px;
-    position: relative;
     text-align:center;
     float: left;
 }
@@ -327,8 +334,7 @@ header main{
 }
 #gravuraluas{
     width:510px;
-    position:relative;
-    
+ 
 }
 #gravurapeitos{
     width:339px;
@@ -338,5 +344,5 @@ header main{
     background-color: #ffffff;
     border-bottom:3px solid #424242;
     border-top: 3px solid #bebebe;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
