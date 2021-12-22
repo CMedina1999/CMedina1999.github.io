@@ -232,7 +232,8 @@ header main{
     display: block;
     color:#ffffff;
     position: relative;
-    float: left;
+    padding-left: 10px;
+    float: right;
     width:250px;
     margin:10px;
     font-size: 25px;
