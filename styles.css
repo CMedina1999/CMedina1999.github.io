@@ -105,8 +105,15 @@ header main{
     padding: 23px;
     text-align: center;
 }
-
-
+.linkcontato a {
+    color: #424242;
+    text-decoration:none;
+        font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.linkcontato a:hover{
+    color:#ea7a7a;
+}
 .redesSociais ul li {
     width:5%;
     display: inline-block;
