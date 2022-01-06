@@ -190,6 +190,7 @@ header main{
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
     text-align: left;
+    margin-bottom:10px;
 }
 .sobreImagem{
     display:table-cell;
